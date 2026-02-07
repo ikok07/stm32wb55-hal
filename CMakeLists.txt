@@ -47,7 +47,9 @@ set (RUNTIME_LIBRARY_SYSCALLS "--specs=nosys.specs")
 
 file(GLOB_RECURSE APP_SOURCES
         "src/*.c"
-        "src/*.s"
+        "src/*.s",
+        "lib/cmsis/Device/ST/STM32WBxx/src/*.c",
+        "lib/hal/src/*.c"
 )
 
 set (PROJECT_SOURCES
@@ -57,12 +59,14 @@ set (PROJECT_SOURCES
 
 set (PROJECT_DEFINES
 	# LIST COMPILER DEFINITIONS HERE
-
+        STM32WB55xx
 )
 
 set (PROJECT_INCLUDES
 	# LIST INCLUDE DIRECTORIES HERE
-
+        lib/cmsis/include
+        lib/cmsis/Device/ST/STM32WBxx/include
+        lib/hal/include
 )
 
 ############ MODIFY ACCORDING TO REQUIREMENTS) ########################
