@@ -15,7 +15,7 @@
  *****************************************************************************
  */
 
-#include "auto/ble_gen_aci.h"
+#include "ble_gen_aci.h"
 
 tBleStatus aci_reset( uint8_t Mode,
                       uint32_t Options )

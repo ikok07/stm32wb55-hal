@@ -15,7 +15,7 @@
  *****************************************************************************
  */
 
-#include "auto/ble_gap_aci.h"
+#include "ble_gap_aci.h"
 
 tBleStatus aci_gap_set_non_discoverable( void )
 {

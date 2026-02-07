@@ -3,5 +3,24 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/B-WB1M-WPAN1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/Common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/ism330dhcx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/s25fl128s" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/ssd1315" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/stm32wb_at" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/Components/stts22h" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/NUCLEO-WB15CC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/P-NUCLEO-WB55.Nucleo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/P-NUCLEO-WB55.USBDongle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/BSP/STM32WB5MM-DK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/CMSIS/Device/ST/STM32WBxx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Drivers/STM32WBxx_HAL_Driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/ST/STM32_TouchSensing_Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/ST/STM32_USB_Device_Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/ST/STM32_WPAN" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/ST/threadx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/Third_Party/FatFs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/STM32CubeWB/Middlewares/Third_Party/FreeRTOS" vcs="Git" />
   </component>
 </project>

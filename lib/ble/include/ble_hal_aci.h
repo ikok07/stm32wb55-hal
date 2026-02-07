@@ -19,7 +19,7 @@
 #define BLE_HAL_ACI_H__
 
 
-#include "auto/ble_types.h"
+#include "ble_types.h"
 
 /**
  * @brief ACI_HAL_WRITE_CONFIG_DATA

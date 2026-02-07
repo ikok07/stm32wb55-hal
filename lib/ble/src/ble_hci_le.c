@@ -15,7 +15,7 @@
  *****************************************************************************
  */
 
-#include "auto/ble_hci_le.h"
+#include "ble_hci_le.h"
 
 tBleStatus hci_disconnect( uint16_t Connection_Handle,
                            uint8_t Reason )

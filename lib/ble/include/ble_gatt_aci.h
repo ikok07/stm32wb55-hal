@@ -19,7 +19,7 @@
 #define BLE_GATT_ACI_H__
 
 
-#include "auto/ble_types.h"
+#include "ble_types.h"
 
 /**
  * @brief ACI_GATT_INIT

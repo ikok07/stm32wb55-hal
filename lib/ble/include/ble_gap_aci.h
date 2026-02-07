@@ -19,7 +19,7 @@
 #define BLE_GAP_ACI_H__
 
 
-#include "auto/ble_types.h"
+#include "ble_types.h"
 
 /**
  * @brief ACI_GAP_SET_NON_DISCOVERABLE

@@ -19,7 +19,7 @@
 #define BLE_HCI_LE_H__
 
 
-#include "auto/ble_types.h"
+#include "ble_types.h"
 
 /**
  * @brief HCI_DISCONNECT

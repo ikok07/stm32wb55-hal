@@ -15,7 +15,7 @@
  *****************************************************************************
  */
 
-#include "auto/ble_hal_aci.h"
+#include "ble_hal_aci.h"
 
 tBleStatus aci_hal_write_config_data( uint8_t Offset,
                                       uint8_t Length,

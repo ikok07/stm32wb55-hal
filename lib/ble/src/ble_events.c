@@ -15,7 +15,7 @@
  *****************************************************************************
  */
 
-#include "auto/ble_events.h"
+#include "ble_events.h"
 
 /* Event process functions declaration */
 static void hci_disconnection_complete_event_process( const uint8_t* in );

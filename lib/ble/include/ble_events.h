@@ -19,7 +19,7 @@
 #define BLE_EVENTS_H__
 
 
-#include "auto/ble_types.h"
+#include "ble_types.h"
 
 #define HCI_EVENT_TABLE_SIZE 6
 #define HCI_LE_EVENT_TABLE_SIZE 16
