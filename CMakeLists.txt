@@ -68,6 +68,7 @@ set (PROJECT_DEFINES
 set (PROJECT_INCLUDES
 	# LIST INCLUDE DIRECTORIES HERE
         include
+        include/bt
         lib/cmsis/include
         lib/cmsis/Device/ST/STM32WBxx/include
         lib/hal/include
