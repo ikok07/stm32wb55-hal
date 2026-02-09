@@ -1,4 +1,7 @@
 #include <stdint.h>
+
+#include "clocks.h"
+#include "shci.h"
 #include "stm32wbxx.h"
 #include "stm32wbxx_hal.h"
 
@@ -8,9 +11,23 @@
 
 int main(void)
 {
-  if (HAL_Init() != HAL_OK) {
-    while (1);
-  }
+    if (HAL_Init() != HAL_OK) {
+        while (1);
+    }
 
-  while (1);
+    if (CLOCKS_Config() != HAL_OK) {
+        while (1);
+    }
+
+    // Start CPU2
+
+
+    while (1);
+}
+
+/**
+ * @brief Restart device if HSE failed
+ */
+void HAL_RCC_CSSCallback() {
+    HAL_NVIC_SystemReset();
 }

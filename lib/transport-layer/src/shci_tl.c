@@ -21,7 +21,7 @@
 #include "stm32_wpan_common.h"
 
 #include "stm_list.h"
-#include "shci_tl.h"
+#include "../include/shci_tl.h"
 
 /* Private typedef -----------------------------------------------------------*/
 typedef enum

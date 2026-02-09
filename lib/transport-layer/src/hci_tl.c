@@ -18,7 +18,7 @@
 
 
 /* Includes ------------------------------------------------------------------*/
-#include "ble_common.h"
+// #include "ble_common.h"
 #include "ble_const.h"
 
 #include "stm_list.h"

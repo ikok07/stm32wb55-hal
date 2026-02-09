@@ -53,6 +53,7 @@ file(GLOB_RECURSE APP_SOURCES
         "lib/shci/src/*.c"
         "lib/ble/src/*.c"
         "lib/transport-layer/src/*.c"
+        "lib/utils/src/*.c"
 )
 
 set (PROJECT_SOURCES
@@ -75,6 +76,7 @@ set (PROJECT_INCLUDES
         lib/shci/include
         lib/ble/include
         lib/transport-layer/include
+        lib/utils/include
 )
 
 ############ MODIFY ACCORDING TO REQUIREMENTS) ########################
